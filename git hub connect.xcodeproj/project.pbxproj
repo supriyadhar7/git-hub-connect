@@ -14,6 +14,13 @@
 		CF2BB4DB24D06F4200269997 /* git_hub_connect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB4D924D06F4200269997 /* git_hub_connect.xcdatamodeld */; };
 		CF2BB4DD24D06F4B00269997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2BB4DC24D06F4B00269997 /* Assets.xcassets */; };
 		CF2BB4E024D06F4B00269997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2BB4DE24D06F4B00269997 /* LaunchScreen.storyboard */; };
+		CF2BB4E824D1DAF800269997 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB4E724D1DAF800269997 /* ViewController1.swift */; };
+		CF2BB4EA24D1E48A00269997 /* ViewControllerKitchen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB4E924D1E48A00269997 /* ViewControllerKitchen.swift */; };
+		CF2BB4EC24D1E4FA00269997 /* ViewControllerBathroom.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB4EB24D1E4FA00269997 /* ViewControllerBathroom.swift */; };
+		CF2BB4EE24D1E53E00269997 /* ViewControllerClothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB4ED24D1E53E00269997 /* ViewControllerClothing.swift */; };
+		CF2BB4F024D1E56600269997 /* ViewControllerEDU.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB4EF24D1E56600269997 /* ViewControllerEDU.swift */; };
+		CF2BB4F224D1E5CC00269997 /* ViewControllerTech.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB4F124D1E5CC00269997 /* ViewControllerTech.swift */; };
+		CF2BB4F424D1E5FE00269997 /* ViewControllerT&T.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2BB4F324D1E5FE00269997 /* ViewControllerT&T.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		CF2BB4DC24D06F4B00269997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF2BB4DF24D06F4B00269997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF2BB4E124D06F4B00269997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2BB4E724D1DAF800269997 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		CF2BB4E924D1E48A00269997 /* ViewControllerKitchen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerKitchen.swift; sourceTree = "<group>"; };
+		CF2BB4EB24D1E4FA00269997 /* ViewControllerBathroom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerBathroom.swift; sourceTree = "<group>"; };
+		CF2BB4ED24D1E53E00269997 /* ViewControllerClothing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerClothing.swift; sourceTree = "<group>"; };
+		CF2BB4EF24D1E56600269997 /* ViewControllerEDU.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerEDU.swift; sourceTree = "<group>"; };
+		CF2BB4F124D1E5CC00269997 /* ViewControllerTech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTech.swift; sourceTree = "<group>"; };
+		CF2BB4F324D1E5FE00269997 /* ViewControllerT&T.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewControllerT&T.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +56,13 @@
 		CF2BB4C424D06F4200269997 = {
 			isa = PBXGroup;
 			children = (
+				CF2BB4E724D1DAF800269997 /* ViewController1.swift */,
+				CF2BB4E924D1E48A00269997 /* ViewControllerKitchen.swift */,
+				CF2BB4EB24D1E4FA00269997 /* ViewControllerBathroom.swift */,
+				CF2BB4ED24D1E53E00269997 /* ViewControllerClothing.swift */,
+				CF2BB4EF24D1E56600269997 /* ViewControllerEDU.swift */,
+				CF2BB4F124D1E5CC00269997 /* ViewControllerTech.swift */,
+				CF2BB4F324D1E5FE00269997 /* ViewControllerT&T.swift */,
 				CF2BB4CF24D06F4200269997 /* git hub connect */,
 				CF2BB4CE24D06F4200269997 /* Products */,
 			);
@@ -142,8 +163,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF2BB4D524D06F4200269997 /* ViewController.swift in Sources */,
+				CF2BB4EA24D1E48A00269997 /* ViewControllerKitchen.swift in Sources */,
+				CF2BB4F224D1E5CC00269997 /* ViewControllerTech.swift in Sources */,
+				CF2BB4EC24D1E4FA00269997 /* ViewControllerBathroom.swift in Sources */,
+				CF2BB4E824D1DAF800269997 /* ViewController1.swift in Sources */,
+				CF2BB4F024D1E56600269997 /* ViewControllerEDU.swift in Sources */,
 				CF2BB4D124D06F4200269997 /* AppDelegate.swift in Sources */,
 				CF2BB4D324D06F4200269997 /* SceneDelegate.swift in Sources */,
+				CF2BB4F424D1E5FE00269997 /* ViewControllerT&T.swift in Sources */,
+				CF2BB4EE24D1E53E00269997 /* ViewControllerClothing.swift in Sources */,
 				CF2BB4DB24D06F4200269997 /* git_hub_connect.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
