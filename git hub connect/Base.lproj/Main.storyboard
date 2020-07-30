@@ -342,6 +342,9 @@
                         <viewLayoutGuide key="safeArea" id="rrz-1H-Fyf"/>
                     </view>
                     <navigationItem key="navigationItem" id="ax5-gy-pkD"/>
+                    <connections>
+                        <outlet property="thredUp" destination="cgD-43-s42" id="mxr-N6-iwr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hCb-xd-lLl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -579,7 +582,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Bxo-lf-wto"/>
+        <segue reference="hXL-OR-bhz"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2020-07-29 at 11.12.47 PM" width="143" height="52"/>

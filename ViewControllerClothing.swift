@@ -7,29 +7,40 @@
 //
 
 import UIKit
+import WebKit
 
-class ViewControllerClothing: UIViewController {
+class ViewControllerClothing: UIViewController, WKNavigationDelegate {
+    
+    var webView: WKWebView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        // 1
+        let url = URL(string: "https://www.thredup.com")!
+        webView.load(URLRequest(url: url))
+    
+        // 2
+        let refresh =
+            UIBarButtonItem(barButtonSystemItem: .refresh, target: webView, action: #selector(webView.reload))
+        toolbarItems = [refresh]
+        navigationController?.isToolbarHidden = false
+        
+}
+    
+    override func loadView() {
+        webView = WKWebView()
+        webView.navigationDelegate = self
+        view = webView
     }
     
-
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        title = webView.title
+    }
     /*
     
-     @IBAction func thredUp(_ sender: UIButton) {
-    openURL("http://www.thredup.com")
-     }
      
-     
-     func openURL(url:String!) {
-     
-        if let url =
-            NSURL(string:urlStr) {
-     UIApplication.sharedApplication()
-        .openURL(url)
     
  */
 }
+
