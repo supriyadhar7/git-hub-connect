@@ -19,5 +19,17 @@ class ViewControllerClothing: UIViewController {
 
     /*
     
-
- 
+     @IBAction func thredUp(_ sender: UIButton) {
+    openURL("http://www.thredup.com")
+     }
+     
+     
+     func openURL(url:String!) {
+     
+        if let url =
+            NSURL(string:urlStr) {
+     UIApplication.sharedApplication()
+        .openURL(url)
+    
+ */
+}
